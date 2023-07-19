@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
+
+*{
+        margin: 0px;
+        padding: 0px;
+         font-family: 'Work Sans', sans-serif;
+        box-sizing: border-box;
+}
+
+.pink{
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.color-2{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+
+.nav-container{
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+        padding: 20px;
+}
+.nav-icon{
+        /* width: 50%; */
+        display: flex;
+        align-items: center;
+}
+.nav-icon-title{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+ }
+.nav-icon img{
+        object-fit: contain;
+        width: 50px;
+        height: 50px;
+}
+.nav-info{
+        width: 50%;
+        display: flex;
+        justify-content: right;
+        gap: 10px;
+        margin-right: 10px;
+        align-items: center;
+ }
+
+.nav-container li {
+        list-style: none;;
+}
+.nav-container a{
+        text-decoration: none; 
+        color: #3C354F;
+        font-size: 1rem;
+        font-weight: 500;      
+}
+
+ .nav-button{
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        color: #3C354F;
+        font-size: 1rem;
+        font-weight: 500;
+        background: rgba(11, 2, 35, 0.10);
+        
+ }
+ /* banner section */
+
+
+ .banner-container{
+        max-width: 1400px;
+        min-height: 300px;
+        margin: 0 auto;
+        background: #FFF;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url("../images/Group\ 14.png");
+        background-repeat: no-repeat;
+        background-size: 50% 100%;
+ }
+ 
+ .banner-contant{
+        width: 50%;
+        align-items: center; 
+        margin-left: 60px;
+        padding-left: 60px;      
+ }
+ .banner-container h3{
+        color: #0B0223;      
+        font-size: 2.8rem;
+        font-weight: 600;
+ }
+.goat{
+        font-size: 4rem;
+        font-weight: 600;
+        margin-bottom: 50px;
+}
+
+.banner-container p{
+        color: #534C64;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 15px 0px;
+        
+}
+.banner-button{
+        display: flex;
+        gap: 30px;
+}
+.btn-sign-in{
+        color: #FFF;
+        font-size: 1.2rem;
+        font-weight: 400;
+        border-radius: 48px;
+        padding: 20px 30px;
+        border: none;
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.btn-rogue{
+        color: #FFF;
+        font-size: 1.2rem;
+        font-weight: 400;
+        border-radius: 48px;
+        padding: 20px 30px;
+        background: #4EC5F7;
+        border: none;
+}
+.banner-img{
+        width: 50%;
+        
+}
+.banner-img img {
+        width: 100%;
+        height: 100%;
+        background: #FFF;
+}
+
+
+
+
+/* online games section */
+
+.online-cards:hover img{
+        
+        border: 1px solid purple;  
+        border-radius: 15px;
+        box-shadow: 0px 3px 3px 1px purple;   
+        transform: scale(1.02)
+        
+}
+
+
+
+ .online-game-title{
+        text-align: center;
+        padding-top: 50px;
+}
+.online-game-title h1{
+        color: #0B0223;
+        font-size: 3rem;
+        font-weight: 700;
+}
+.online-game-title p{
+        
+        color: #534C64;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 10px 10px;
+}
+
+
+
+.online-game-cords-container{
+        max-width: 1400px;
+        margin-top: 30px;
+        padding-left: 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
+        
+}
+.online-cards{
+        width: 300px;
+        margin-bottom: 30px;
+}
+
+.online-cards img{
+        width: 100%;
+        display: block;
+              
+} 
+.online-cards p{
+        color: #534C64;
+        font-size: 1rem;
+        margin: 10px;
+
+}
+
+
+/* download section */
+
+.download-section{
+        
+        max-width: 1240px;       
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        margin-bottom: 150px;
+
+}
+.download-container{
+        width: 50%;
+}
+.download-container h1{
+        font-size: 3rem;
+        font-weight: 700;
+}
+.download-container p{
+        color: #534C64;
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-top: 10px;
+}
+
+
+.download-img{
+        width: 50%;
+}
+.download-img img{
+        width: 100%;
+}
+
+.tom img{
+      
+       position: relative;
+       width: 30%;
+       height: 30%;
+       left: 90%;
+       margin-bottom: -300px;
+       
+}
+
+/*  Button section */
+
+
+.button-sec:hover{
+        background: bisque;
+        transform: scale(1.1);
+}
+
+.button-sec:hover p{
+        color: #FF42A5;
+
+}
+
+
+
+
+.button-section{
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, 
+        rgba(255, 66, 165, 0.03) 100%);      
+        width: 1240px;
+        min-height:500px ;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+}
+
+.button-sec{
+        width: 250px;
+        padding: 0px 10px;
+        border-radius: 50px;
+        background: #FFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        border: none;
+        border-radius: 30px;
+        margin: 30px;
+        transition-duration: 3s ;
+        transition-delay: 0s;
+        
+}
+  .button-section p {
+        color: #0B0223;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        /* transition-duration: 3s ; */
+        transition-delay: 0s;
+
+}
+/* footer section */
+
+.footer-icon a:hover{
+        transform: scale(1.2);
+        color: tomato;
+        border-radius: 30px;
+        /* transform: rotate(360deg); */
+        }
+.footer-icon a{
+        transition-duration: 3s ;
+        transition-delay: 0s;
+}
+
+
+
+.footer-container{
+       width: 1240px;
+       margin: 0 auto;
+       min-height: 500px;
+       background: #0B0223;
+}
+.footer-title{
+ 
+        display: flex;
+        gap: 20px;
+        padding-top: 100px;
+        margin-bottom: 40px;
+        margin-left: 40%;
+}
+.footer-title h1{
+        color: #FFF;
+        font-weight: 700;
+        font-size: 2.5rem;
+}
+.footer-des{
+
+        width: 800px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        text-align: center;
+}
+
+.footer-des a{      
+        text-decoration: none;
+        color: #FFF;
+        font-size: 1.2rem;
+        font-weight: 600;
+        
+}
+
+.footer-icon{
+         width: 700px;
+         margin: 0 auto;
+         display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+        
+        
+}
+.fa-brand{
+        font-size: 50px;
+        padding-left: 50px;
+
+        
+}
+.footer-terms{
+
+        width: 700px;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+}
+.footer-terms a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+}
+     .footer-end{
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive Section Started form here */
+
+
+
+/* For Mobile devices */
+
+@media screen and (max-width:500px) {
+
+        .nav-container{
+                flex-direction: column;
+                align-items: center;
+                
+        }
+        .nav-info{
+                width: 100%;
+                font-size: 2rem;
+                flex-direction: column;
+                gap: 20px;
+        }
+
+        
+        .banner-container{
+                width: 100%;
+                flex-direction: column-reverse;
+                background-size: 100% 52%;
+                background-position: bottom;
+                background-position: cover;
+        }
+        .banner-contant{
+                margin-left: 0px;
+                padding-left: 0px;
+        }
+        .banner-container h3{
+                font-size: 2rem;
+        }
+        .btn-sign-in{
+                border-radius: 10px;
+                padding: 10px 10px;
+                
+        }
+        .btn-rogue{
+                
+                border-radius: 10px;
+                padding: 10px 10px;
+                
+        }
+        
+        .banner-img{
+                width: 80%;
+               
+
+        }
+
+
+        /* online */
+        .online-game-cords-container{
+                grid-template-columns: 1fr;
+        }
+        .online-game-title h1{
+                font-size: 1.5rem;
+        }
+        .online-game-title p{
+                font-size: 0.6rem;
+        }  
+        
+        
+        .online-cards p{
+                
+                font-size: 0.6rem;
+                              
+        }
+
+        /* download section */
+        .download-section{
+               flex-direction: column;
+               margin: 0px;
+        }
+        
+        .download-container h1{
+
+                font-size: 1.5rem;
+                font-weight: 700;
+        }
+        .download-container p{
+                font-size: 0.8rem;
+                font-weight: 400;
+                margin-top: 10px;
+                margin-bottom: 10px;
+        }
+        .tom img{
+      
+                left: -30px;
+                top: -40px;
+                
+               
+                
+         } 
+
+         /* button section */
+         .button-section{
+                margin-top: 30px;
+                margin-left: 0px;
+                width: auto;
+        }
+        .button-sec{
+                width: 200px;
+                margin: 5px;
+                margin-bottom: 20px;
+                
+        }
+        /* footer section */
+       
+        .footer-container{
+                width: auto;
+                
+         }
+        
+         .footer-title{
+                width: auto;
+                margin-left: 100px;
+                
+        }
+        .footer-title h1{
+                color: #FFF;
+                font-weight: 700;
+                font-size: 2rem;
+                align-items: center;
+        }
+        .footer-des{
+                
+                width: auto;
+                margin: 0 auto;                
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+        }
+        .footer-icon{
+                width: auto;             
+               grid-template-columns: repeat(3, 1fr);
+               gap: 30px;
+               margin-right: 15px;
+               margin-bottom: 20px;
+                          
+       }
+       .footer-terms{
+        width: auto;
+        margin: 0 auto;
+        gap: 30px;
+        padding-bottom: 20px;
+        grid-template-columns: repeat(2, 1fr);
+       
+
+}
+.footer-end{
+        padding-top:30px ;
+}
+
+}
+
+/*  */
+/* fot tablet */
+
+@media screen and (min-width:501px) and (max-width:768px) {
+
+
+
+
+        .nav-container{
+                width: 100%;
+                align-items: center;
+        }
+        .nav-info{
+                width: 100%;
+                
+                gap: 20px;
+        }
+
+        
+        .banner-container{
+                width: 100%;              
+                flex-direction: column-reverse;
+                background-size: 90% 55%;
+                background-position: bottom;
+                background-position: cover;
+        }
+       
+        .banner-contant{
+                margin-left: 0px;
+                padding-left: 0px;
+        }
+        .banner-container h3{
+                font-size: 2rem;
+        }
+        .btn-sign-in{
+                border-radius: 10px;
+                padding: 10px 10px;
+                
+        }
+        .btn-rogue{
+                
+                border-radius: 10px;
+                padding: 10px 10px;
+                
+        }
+        
+        .banner-img{
+                width: 100%;
+               
+        }
+        .online-game-cords-container{
+                grid-template-columns: repeat(2, 1fr);
+        }
+        .online-game-title h1{
+                font-size: 1.5rem;
+        }
+        .online-game-title p{
+                font-size: 0.6rem;
+        }          
+        .online-cards p{
+                
+                font-size: 0.6rem;
+                              
+        }
+
+        .tom img{
+      
+                left: 85%;
+                margin-bottom: -130px;
+                
+         }
+         .button-section{
+                margin-top: 30px;
+                margin-left: 0px;
+                
+                width: auto;
+        }
+        .button-sec{
+                width: 200px;
+                margin: 5px;
+                margin-bottom: 20px;
+                
+        }
+        /* footer section */
+       
+        .footer-container{
+                width: auto;
+                
+         }
+        
+         .footer-title{
+                width: auto;
+                
+        }
+        .footer-title h1{
+                color: #FFF;
+                font-weight: 700;
+                font-size: 2rem;
+                align-items: center;
+        }
+        .footer-des{
+                
+                width: auto;
+                margin: 0 auto;
+                gap: 20px;                
+                grid-template-columns: repeat(3, 1fr);
+        }
+        .footer-icon{
+                width: auto;             
+               grid-template-columns: repeat(2, 1fr);
+               gap: 30px;
+               margin-bottom: 20px;
+                          
+       }
+       .footer-terms{
+        width: auto;
+        margin: 0 auto;
+        gap: 30px;
+        padding-bottom: 20px;
+        grid-template-columns: repeat(2, 1fr);
+       
+}
+.footer-end{
+        padding-top:30px ;
+}
+
+
+}
+
+
+
